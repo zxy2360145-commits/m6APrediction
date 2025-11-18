@@ -25,10 +25,11 @@ To install the package:
 ```{r}
 
 # Install devtools if not already installed
-install.packages("devtools")
+install.packages("remotes")
+library(remotes)
 
 # Install m6APrediction from GitHub
-devtools::install_github("zxy2360145-commits/m6APrediction")
+remotes::install_github("zxy2360145-commits/m6APrediction")
 
 # Load the package
 library(m6APrediction)
@@ -70,12 +71,10 @@ prediction_single(
 
 The ROC and PRC curves below show the model’s performance based on validation data (from Practical 4):
 
-```{r}
-
-knitr::include_graphics("m6APrediction/man/figure/ROC.png")
-knitr::include_graphics("m6APrediction/man/figure/PRC.png")
-
-```
+## ROC curve:
+![ROC Curve](https://github.com/zxy2360145-commits/m6APrediction/blob/main/man/figure/ROC.png)
+## PRC curve:
+![PRC Curve](https://github.com/zxy2360145-commits/m6APrediction/blob/main/man/figure/PRC.png)
 
 # Project Information
 	1. GitHub Repository: https://github.com/zxy2360145-commits/m6APrediction
