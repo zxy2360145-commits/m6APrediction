@@ -1,0 +1,16 @@
+Package: m6APrediction
+Title: Predicting m6A RNA Methylation Sites
+Version: 0.0.0.9000
+Authors@R: 
+    person("Xiaoyu", "Zhang", , "Xiaoyu.Zhang23@student.xjtlu.edu.cn", role = c("aut", "cre"))
+Description: Description: This package predicts m6A RNA methylation sites using a random forest model 
+    based on transcript features like RNA region, GC content, exon length, and conservation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports: 
+    randomForest,
+    stats
+URL: https://github.com/zxy2360145-commits/m6APrediction
+BugReports: https://github.com/zxy2360145-commits/m6APrediction/issues
