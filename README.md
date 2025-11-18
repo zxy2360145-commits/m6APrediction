@@ -24,7 +24,7 @@ To install the package:
 
 ```{r}
 
-# Install devtools if not already installed
+# Install remotes if not already installed
 install.packages("remotes")
 library(remotes)
 
